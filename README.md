@@ -1,12 +1,8 @@
-# Travel_Ticket_Cancellations_for_Risk_Management
- The objective of this exercise is to develop a model that accurately predicts whether users will cancel their tickets. Each cancellation incurs a fine for the ticket registration site from the passenger company. Therefore, it is crucial to identify tickets that are likely to be canceled, enabling effective risk management within the company. By utilizing the available data, we will train a model to accurately detect trip cancellations.
-
-
- # Flight Ticket Cancellation Prediction using Machine Learning
+# Travel Ticket Cancellation Prediction using Machine Learning for Risk_Management
 
 ## Project Overview
 
-This project aims to develop a machine learning model to predict flight ticket cancellations based on various factors. By anticipating cancellations, airlines can implement proactive strategies to minimize losses and improve customer satisfaction.
+The objective of this Project is to develop a model that accurately predicts whether users will cancel their tickets. Each cancellation incurs a fine for the ticket registration site from the passenger company. Therefore, it is crucial to identify tickets that are likely to be canceled, enabling effective risk management within the company. By utilizing the available data, we will train a model to accurately detect trip cancellations.
 
 ## Dataset
 
@@ -29,6 +25,8 @@ The dataset used for this project contains information about passengers who have
 ## Exploratory Data Analysis (EDA)
 
 * **Cancellation Distribution:** A pie chart was created to visualize the overall cancellation rate, showing that about 15.3% of tickets were canceled.
+    <!-- Placeholder for Cancellation Distribution Pie Chart -->
+        [Screenshot of cancellation distribution pie chart will be added here]
 * **Most Departure and Destination Cities:** Bar plots were used to identify the top 10 departure and destination cities for non-canceled tickets.
 * **Monthly Income:** Line plots were used to display the monthly income with and without considering cancellations, revealing the financial impact of cancellations.
 * **Trip Reason and Cancellation:** A count plot was used to analyze the relationship between trip reasons and cancellations.
