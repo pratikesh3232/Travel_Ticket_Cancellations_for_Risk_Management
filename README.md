@@ -62,7 +62,7 @@ This project successfully demonstrates a robust approach to building a machine l
 
 ## Requirements
 
-* Python 3.x
+* Python 3.11
 * Pandas
 * NumPy
 * Scikit-learn
@@ -70,18 +70,3 @@ This project successfully demonstrates a robust approach to building a machine l
 * Imbalanced-learn
 * Seaborn
 * Matplotlib
-
-## Usage
-
-1. Clone the repository.
-2. Install the required libraries.
-3. Run the Jupyter Notebook.
-
-
-## Contributing
-
-Contributions are welcome! Please feel free to open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
