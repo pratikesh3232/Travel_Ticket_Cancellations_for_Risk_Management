@@ -12,15 +12,26 @@ The dataset used for this project contains information about passengers who have
 
 1. **Data Acquisition:** Collected relevant flight data from the provided dataset.
 2. **Data Preprocessing:**
-   * Handled missing values.
-   * Addressed outliers.
-   * Converted data types as needed.
-   * Performed one-hot encoding for categorical variables.
-   * Used undersampling to balance the target variable.
+   * **Missing Values:** A total of [Number] missing values were dealt with across the dataset. The `CancelTime` column, having the most missing values ([Number]), was dropped 
+     as it was unnecessary for the prediction task. Missing values in other columns were addressed using appropriate imputation techniques or by removing the rows/columns.
+   * **Outlier Handling:** Outliers in the `Price` and `CouponDiscount` columns were identified and addressed by removing invalid negative values and replacing '-' symbols 
+     with empty strings. Rows with a price of 0 were also removed.
+   * **Data Type Conversion:** Data types of specific columns like `Price` and `CouponDiscount` were changed from float to int for better handling.
+   * **One-Hot Encoding:** Categorical variables such as `Vehicle` and `ReserveStatus` were converted into numerical representations using one-hot encoding.
+   * **Undersampling:** The target variable `Cancel` had a class imbalance, with a higher proportion of non-cancellations. Undersampling was applied to balance the dataset, resulting in [Number] samples for each class.
 3. **Model Selection:** Chose appropriate machine learning algorithms for classification, including Decision Tree, Random Forest, KNN, and XGBClassifier.
 4. **Model Training:** Trained the selected models on the prepared dataset, utilizing training techniques and hyperparameter tuning.
-5. **Model Evaluation:** Evaluated the performance of the trained models using metrics like accuracy, precision, recall, and F1-score.
-6. **Model Deployment:** (Not included in this project) Deployed the best-performing model in a real-time environment for proactive cancellation predictions.
+5. 5. **Model Evaluation:** 
+    * Evaluated the performance of the trained models using metrics like accuracy, precision, recall, and F1-score.
+    * **Decision Tree Accuracy:**
+        ![Decision Tree Accuracy](/images/decision_tree_accuracy.png "Decision Tree Accuracy") 
+    * **Random Forest Accuracy:**
+        ![Random Forest Accuracy](/images/random_forest_accuracy.png "Random Forest Accuracy")
+    * **KNN Accuracy:**
+        ![KNN Accuracy](/images/knn_accuracy.png "KNN Accuracy")
+    * **XGBoost Accuracy:**
+        ![XGBoost Accuracy](/images/xgboost_accuracy.png "XGBoost Accuracy")
+
 
 ## Exploratory Data Analysis (EDA)
 
@@ -28,9 +39,17 @@ The dataset used for this project contains information about passengers who have
     <!-- Placeholder for Cancellation Distribution Pie Chart -->
         [Screenshot of cancellation distribution pie chart will be added here]
 * **Most Departure and Destination Cities:** Bar plots were used to identify the top 10 departure and destination cities for non-canceled tickets.
+* <!-- Placeholder for Cancellation Distribution Pie Chart -->
+        [Screenshot of cancellation distribution pie chart will be added here]
 * **Monthly Income:** Line plots were used to display the monthly income with and without considering cancellations, revealing the financial impact of cancellations.
+* <!-- Placeholder for Cancellation Distribution Pie Chart -->
+        [Screenshot of cancellation distribution pie chart will be added here]
 * **Trip Reason and Cancellation:** A count plot was used to analyze the relationship between trip reasons and cancellations.
+* <!-- Placeholder for Cancellation Distribution Pie Chart -->
+        [Screenshot of cancellation distribution pie chart will be added here]
 * **Vehicle and Trip Reason:** A count plot was used to analyze the relationship between vehicle types and trip reasons.
+* <!-- Placeholder for Cancellation Distribution Pie Chart -->
+        [Screenshot of cancellation distribution pie chart will be added here]
 
 ## Results
 
