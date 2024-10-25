@@ -12,13 +12,14 @@ The dataset used for this project contains information about passengers who have
 
 1. **Data Acquisition:** Collected relevant flight data from the provided dataset.
 2. **Data Preprocessing:**
-   * **Missing Values:** A total of [Number] missing values were dealt with across the dataset. The `CancelTime` column, having the most missing values ([Number]), was dropped 
-     as it was unnecessary for the prediction task. Missing values in other columns were addressed using appropriate imputation techniques or by removing the rows/columns.
+   * **Missing Values:** A total of 340,703 missing values were dealt with across the dataset. The `HashPassportNumber_p` column, having the most missing values (100155), was 
+     dropped as it was unnecessary for the prediction task. Missing values in other columns were addressed using appropriate imputation techniques or by removing the     
+     rows/columns.
    * **Outlier Handling:** Outliers in the `Price` and `CouponDiscount` columns were identified and addressed by removing invalid negative values and replacing '-' symbols 
      with empty strings. Rows with a price of 0 were also removed.
-   * **Data Type Conversion:** Data types of specific columns like `Price` and `CouponDiscount` were changed from float to int for better handling.
+   * **Data Type Conversion:** Data types of specific columns like `Price` and `CouponDiscount` were changed from 'float' to 'int' for better handling.
    * **One-Hot Encoding:** Categorical variables such as `Vehicle` and `ReserveStatus` were converted into numerical representations using one-hot encoding.
-   * **Undersampling:** The target variable `Cancel` had a class imbalance, with a higher proportion of non-cancellations. Undersampling was applied to balance the dataset, resulting in [Number] samples for each class.
+   * **Undersampling:** The target variable `Cancel` had a class imbalance, with a higher proportion of non-cancellations. Undersampling was applied to balance the dataset, resulting in 15315 samples for each class.
 3. **Model Selection:** Chose appropriate machine learning algorithms for classification, including Decision Tree, Random Forest, KNN, and XGBClassifier.
 4. **Model Training:** Trained the selected models on the prepared dataset, utilizing training techniques and hyperparameter tuning.
 5. 5. **Model Evaluation:** 
