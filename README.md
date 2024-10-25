@@ -42,7 +42,7 @@ The dataset used for this project contains information about passengers who have
 
 * **Cancellation Distribution:** A pie chart was created to visualize the overall cancellation rate, showing that about 15.3% of tickets were canceled.
 
-        ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy") 
+  ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy") 
 
 * **Most Departure and Destination Cities:** Bar plots were used to identify the top 10 departure and destination cities for non-canceled tickets.
 * <!-- Placeholder for Cancellation Distribution Pie Chart -->
