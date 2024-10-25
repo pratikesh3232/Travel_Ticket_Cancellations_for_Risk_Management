@@ -22,18 +22,18 @@ The dataset used for this project contains information about passengers who have
    * **Undersampling:** The target variable `Cancel` had a class imbalance, with a higher proportion of non-cancellations. Undersampling was applied to balance the dataset, resulting in 15315 samples for each class.
 3. **Model Selection:** Chose appropriate machine learning algorithms for classification, including Decision Tree, Random Forest, KNN, and XGBClassifier.
 4. **Model Training:** Trained the selected models on the prepared dataset, utilizing training techniques and hyperparameter tuning.
-5. 5. **Model Evaluation:** 
+5. **Model Evaluation:** 
     * Evaluated the performance of the trained models using metrics like accuracy, precision, recall, and F1-score.
-    * **Decision Tree Accuracy:**
+    * **Decision Tree Accuracy:**   (After Hyperparameter Tuning)
 
        ![Decision Tree Accuracy](images/Decision_Tree_After_Hyperparameter_Tuning_SS.PNG "Decision Tree Accuracy") 
-    * **Random Forest Accuracy:**
+    * **Random Forest Accuracy:**   (After Hyperparameter Tuning)
 
       ![Random Forest Accuracy](images/Random_forest_after_Hyperparameter_Tuning_SS.PNG "Random Forest Accuracy")
     * **KNN Accuracy:**
 
       ![KNN Accuracy](images/KNN_SS.PNG "KNN Accuracy")
-    * **XGBoost Accuracy:**
+    * **XGBoost Accuracy:**    (After Hyperparameter Tuning)
 
       ![XGBoost Accuracy](images/XGBClassifer_after_Hyperparameter_Tuning_SS.PNG "XGBoost Accuracy")
 
