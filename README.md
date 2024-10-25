@@ -25,7 +25,7 @@ The dataset used for this project contains information about passengers who have
 5. 5. **Model Evaluation:** 
     * Evaluated the performance of the trained models using metrics like accuracy, precision, recall, and F1-score.
     * **Decision Tree Accuracy:**
-        ![Decision Tree Accuracy](/images/decision_tree_accuracy.png "Decision Tree Accuracy") 
+        ![Decision Tree Accuracy](images/Decision_Tree_After_Hyperparameter_Tuning_SS.PNG "Decision Tree Accuracy") 
     * **Random Forest Accuracy:**
         ![Random Forest Accuracy](/images/random_forest_accuracy.png "Random Forest Accuracy")
     * **KNN Accuracy:**
