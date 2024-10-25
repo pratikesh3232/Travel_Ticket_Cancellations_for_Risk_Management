@@ -46,7 +46,7 @@ The dataset used for this project contains information about passengers who have
 
 * **Most Departure and Destination Cities:** Bar plots were used to identify the top 10 departure and destination cities for non-canceled tickets.
 
-  ![Cancellation Distribution](images/TOP 10 most Departure city SS.PNG "Decision Tree Accuracy")
+  ![Cancellation Distribution](images/TOP_10_most_Departure_city_SS.PNG "Decision Tree Accuracy")
 
 * **Monthly Income:** Line plots were used to display the monthly income with and without considering cancellations, revealing the financial impact of cancellations.
 
@@ -54,11 +54,11 @@ The dataset used for this project contains information about passengers who have
 
 * **Trip Reason and Cancellation:** A count plot was used to analyze the relationship between trip reasons and cancellations.
 
-  ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy")
+  ![Cancellation Distribution](images/Trip_reason_&_Cancellation_SS.PNG "Decision Tree Accuracy")
 
 * **Vehicle and Trip Reason:** A count plot was used to analyze the relationship between vehicle types and trip reasons.
 
-  ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy")
+  ![Cancellation Distribution](images/Vehicle_&_Trip_reason_SS.PNG "Decision Tree Accuracy")
 
 ## Results
 
