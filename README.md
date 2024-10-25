@@ -41,21 +41,24 @@ The dataset used for this project contains information about passengers who have
 ## Exploratory Data Analysis (EDA)
 
 * **Cancellation Distribution:** A pie chart was created to visualize the overall cancellation rate, showing that about 15.3% of tickets were canceled.
-  <!-- Placeholder for Cancellation Distribution Pie Chart -->
+  
   ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy") 
 
 * **Most Departure and Destination Cities:** Bar plots were used to identify the top 10 departure and destination cities for non-canceled tickets.
-* <!-- Placeholder for Cancellation Distribution Pie Chart -->
-        [Screenshot of cancellation distribution pie chart will be added here]
+
+  ![Cancellation Distribution](images/TOP 10 most Departure city SS.PNG "Decision Tree Accuracy")
+
 * **Monthly Income:** Line plots were used to display the monthly income with and without considering cancellations, revealing the financial impact of cancellations.
-* <!-- Placeholder for Cancellation Distribution Pie Chart -->
-        [Screenshot of cancellation distribution pie chart will be added here]
+
+  ![Cancellation Distribution](images/Monthly_income_SS.PNG "Decision Tree Accuracy")
+
 * **Trip Reason and Cancellation:** A count plot was used to analyze the relationship between trip reasons and cancellations.
-* <!-- Placeholder for Cancellation Distribution Pie Chart -->
-        [Screenshot of cancellation distribution pie chart will be added here]
+
+  ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy")
+
 * **Vehicle and Trip Reason:** A count plot was used to analyze the relationship between vehicle types and trip reasons.
-* <!-- Placeholder for Cancellation Distribution Pie Chart -->
-        [Screenshot of cancellation distribution pie chart will be added here]
+
+  ![Cancellation Distribution](images/Cancellation_distribution_SS.PNG "Decision Tree Accuracy")
 
 ## Results
 
