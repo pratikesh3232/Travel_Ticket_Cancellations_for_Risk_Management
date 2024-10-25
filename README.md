@@ -28,11 +28,14 @@ The dataset used for this project contains information about passengers who have
 
        ![Decision Tree Accuracy](images/Decision_Tree_After_Hyperparameter_Tuning_SS.PNG "Decision Tree Accuracy") 
     * **Random Forest Accuracy:**
-        ![Random Forest Accuracy](/images/random_forest_accuracy.png "Random Forest Accuracy")
+
+      ![Random Forest Accuracy](images/Random_forest_after_Hyperparameter_Tuning_SS.PNG "Random Forest Accuracy")
     * **KNN Accuracy:**
-        ![KNN Accuracy](/images/knn_accuracy.png "KNN Accuracy")
+
+      ![KNN Accuracy](images/KNN_SS.PNG "KNN Accuracy")
     * **XGBoost Accuracy:**
-        ![XGBoost Accuracy](/images/xgboost_accuracy.png "XGBoost Accuracy")
+
+      ![XGBoost Accuracy](images/XGBClassifer_after_Hyperparameter_Tuning_SS.PNG "XGBoost Accuracy")
 
 
 ## Exploratory Data Analysis (EDA)
